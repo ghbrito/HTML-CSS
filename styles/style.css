@@ -89,12 +89,11 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    
+    border: 2px solid var(--cor-terciaria);
     width: 50%;
     text-align: center;
     border-radius: 16px;
-    border: 2px var(--cor-terciaria) solid;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
