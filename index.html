@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/style.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">About</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong 
@@ -20,13 +25,26 @@
             colocarem em prática boas ideias. Vamos
             conversar?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://instagram.com/guibrito">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/ghbrito">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/ghgbrito">
+                    <img src="Assets/linkedin.png">
+                    LinkedIn
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://github.com/ghbrito">
+                    <img src="Assets/github.png">
+                    GitHub
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://instagram.com/guibrito">
+                    <img src="Assets/instagram.png">
+                    Instagram
+                </a>
             </div>
         </section>
-        <img src="Arquivos/foto gui.jfif" alt="Foto de Guilherme Brito">
+        <img class="apresentacao__imagem" src="Assets/foto gui.jfif" alt="Foto de Guilherme Brito">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Developed by Guilherme Brito</p>
+    </footer>
 </body>
 
 </html>
